@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border: solid;
+}
+
+
+.input-section {
+    margin-top: 15px;
+}
