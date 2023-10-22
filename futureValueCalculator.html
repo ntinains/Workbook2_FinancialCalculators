@@ -19,6 +19,14 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+        <!-- Compiled and minified CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      />
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      
 
     <title>Future Value Calculator</title>
   </head>
@@ -55,7 +63,10 @@
       </nav>
     </header>
 
-    <main>
+
+<body class="silver">
+    <main class="container shadow rounded-3 p-5 white my-5"> 
+        <h1 class="display-1 text-center">Compound Interest Calculator</h1>
     <form id="calculator-form">
         <label for="principal">Principal:</label>
         <input type="number" id="principal" name="principal" required />
@@ -66,12 +77,14 @@
         <label for="principal">Time (in years):</label>
         <input type="number" id="time" name="time" required />
 
-        <button type="submit">Calculate</button>
+        <footer class="row-cols-1 align-items-center m-5">
+        <button 
+        class="btn btn-large"
+        type="submit">Calculate</button> </footer>
       </form>
       <div id="result"></div>
     </main>
-
-    <footer></footer>
     <script src="scripts/futureValueCalculator.js"></script>
   </body>
+</body>
 </html>
