@@ -40,7 +40,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Mortgage Calculator</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="futureValueCalculator.html">Future Value Calculator</a>
+              <a class="nav-link" href="futureValueCalculator.html">Compound Interest</a>
             </li>
           </ul>
         </div>
@@ -53,23 +53,21 @@
     <main class="container shadow rounded-3 p-5 white my-3">
       <h1 class="display-1 text-center">Mortgage Calculator</h1>
       <form
-        class="column"
-        onsubmit="calculateMonthlyPayment()"
+        class="column";
+        onsubmit="calculateMonthlyPayment()";
         action="javascript:alert('Hi There!');">
         <label for="principal"> Principal Loan Amount </label>
         <input type="number" name="principal" id="principal" />
 
         <label for="interestRate"> Interest Rate </label>
-        <input type="number" name="interestRate" id="interestRate" />
+        <input type="number" name="interestRate"; id="interestRate" />
 
         <label for="lengthOfLoan"> Length of Loan </label>
-        <input type="number" name="lengthOfLoan" id="lengthOfLoan" />
+        <input type="number" name="lengthOfLoan" ;id="lengthOfLoan" />
         <footer class="row-cols-1 align-items-center m-5">
           <button class="btn btn-large" type="submit">Calculate</button>
         </footer>
       </form>
-      <div class="column left" id="leftColumn">
-        Your monthly payment:
         <div id="result"></div>
       </div>
     </main>

@@ -1,4 +1,6 @@
 // P(r(1+r)^n/(1+r)^n-1) 
+// n= number of payments over loan's lifetime
+// t=monthly interest rate
 
 const calculateMonthlyPayment = () => {
   const principal = document.getElementById("principal").value;
