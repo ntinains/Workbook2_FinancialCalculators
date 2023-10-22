@@ -27,7 +27,7 @@ Inital Released on 10/22/2023
 
 PluralSight.com | Youtube.com | Google.com | Gregory Testo |
 
-Look at my project below:
+# Look at my project below:
 
 ![getting started](./images/compoundInterestCalculator.PNG)
 ![getting started](./images/mortageCalculator.PNG)
